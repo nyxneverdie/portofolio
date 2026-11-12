@@ -1,0 +1,32 @@
+[
+  {
+    "type": "image",
+    "title": "PROYEK 01 — PLACEHOLDER",
+    "description": "Detail proyek belum diisi.",
+    "media": "./Asset/img/project-placeholder.svg",
+    "role": "",
+    "year": "",
+    "category": "Visual",
+    "image": "./Asset/img/project-placeholder.svg"
+  },
+  {
+    "type": "image",
+    "title": "PROYEK 02 — PLACEHOLDER",
+    "description": "Detail proyek belum diisi.",
+    "media": "./Asset/img/project-placeholder.svg",
+    "role": "",
+    "year": "",
+    "category": "Visual",
+    "image": "./Asset/img/project-placeholder.svg"
+  },
+  {
+    "type": "image",
+    "title": "PROYEK 03 — PLACEHOLDER",
+    "description": "Detail proyek belum diisi.",
+    "media": "./Asset/img/project-placeholder.svg",
+    "role": "",
+    "year": "",
+    "category": "Visual",
+    "image": "./Asset/img/project-placeholder.svg"
+  }
+]
