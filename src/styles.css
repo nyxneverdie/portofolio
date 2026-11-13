@@ -59,3 +59,10 @@ html[data-motion=off]{scroll-behavior:auto}html[data-motion=off] *,html[data-mot
 @media(max-width:1100px){.desktop-nav{gap:16px}.principles,.questions{gap:35px}.capability-card h3{font-size:38px}}
 @media(max-width:800px){.capability-card{padding-right:18px}.capability-card+.capability-card{padding-left:18px}.capability-card h3{font-size:30px}.principles,.questions{gap:30px}.principles-heading h2,.questions-intro h2{font-size:52px}}
 @media(max-width:600px){.capabilities,.principles,.questions{padding:38px 20px}.capabilities-grid{grid-template-columns:1fr}.capability-card,.capability-card+.capability-card{padding:22px 0;min-height:230px;border-right:0;border-bottom:1px solid var(--line)}.capability-card h3{font-size:42px;margin-top:25px}.capability-symbol{right:0}.capability-foot{padding-top:20px}.principles,.questions{grid-template-columns:1fr;gap:32px}.principles-heading h2,.questions-intro h2{font-size:48px}.principles-heading>p,.questions-intro>p{margin-top:16px;font-size:12px}.principle{grid-template-columns:40px 1fr 18px;gap:12px;padding:20px 0}.principle>.display{font-size:25px}.question-item summary{font-size:12px;gap:13px;min-height:68px}.question-item p{padding-left:28px;padding-right:15px}.desktop-nav{display:none}}
+
+/* Blend the portrait's white background into a soft blue halo. */
+.hero-portrait{background:radial-gradient(ellipse 44% 45% at 50% 50%,#6387b1 0%,#304967 48%,transparent 100%)}
+.hero-portrait img{mix-blend-mode:multiply;filter:contrast(1.08);mask-image:none}
+@media(min-width:801px){.hero-portrait{left:19%;width:65%}.hero-portrait img{height:135%;top:-7%}}
+@media(max-width:800px){.hero-portrait{left:12%;width:80%}.hero-portrait img{transform:scale(1.12);transform-origin:center bottom}}
+@media(max-width:600px){.hero-portrait{left:4%;width:92%}.hero-portrait img{transform:scale(1.12)}}
