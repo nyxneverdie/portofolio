@@ -8,7 +8,7 @@ for (const project of projects) {
   assert.ok(project.title && project.image, 'Each project needs a title and image');
   if (project.image.startsWith('./')) await access(project.image);
 }
-for (const file of ['index.html', 'Asset/img/faris-portrait.svg', 'Asset/img/favicon.svg', 'Asset/dist/app.js', 'Asset/dist/app.css']) await access(file);
+for (const file of ['index.html', 'Asset/images.jpeg', 'Asset/img/favicon.svg', 'Asset/dist/app.js', 'Asset/dist/app.css']) await access(file);
 const source = await readFile('src/app.jsx', 'utf8');
 assert.ok(source.includes('6287827659025'));
 assert.ok(!source.includes('<Breakdown/>'));

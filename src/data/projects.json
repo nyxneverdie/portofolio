@@ -1,32 +1,32 @@
 [
   {
-    "type": "image",
-    "title": "PROYEK 01 — PLACEHOLDER",
-    "description": "Detail proyek belum diisi.",
-    "media": "./Asset/img/project-placeholder.svg",
+    "type": "website",
+    "title": "Pondok Pesantren Harapan Ar-Risalah",
+    "description": "Website profil dan informasi Pondok Pesantren Harapan Ar-Risalah Bantul.",
+    "media": "https://pparrisalahbantul.com",
     "role": "",
     "year": "",
-    "category": "Visual",
-    "image": "./Asset/img/project-placeholder.svg"
+    "category": "Website",
+    "image": "./Asset/img/project-arrisalah.png"
   },
   {
-    "type": "image",
-    "title": "PROYEK 02 — PLACEHOLDER",
-    "description": "Detail proyek belum diisi.",
-    "media": "./Asset/img/project-placeholder.svg",
+    "type": "website",
+    "title": "Haniya Gift",
+    "description": "Website katalog buket dan hadiah dari Haniya Gift.",
+    "media": "https://haniyagift.web.id",
     "role": "",
     "year": "",
-    "category": "Visual",
-    "image": "./Asset/img/project-placeholder.svg"
+    "category": "Website",
+    "image": "./Asset/img/project-haniyagift.png"
   },
   {
-    "type": "image",
-    "title": "PROYEK 03 — PLACEHOLDER",
-    "description": "Detail proyek belum diisi.",
-    "media": "./Asset/img/project-placeholder.svg",
+    "type": "website",
+    "title": "NyxBerg",
+    "description": "Website untuk menjelajahi kode dan berkolaborasi dalam proyek.",
+    "media": "https://nyxberg.vercel.app",
     "role": "",
     "year": "",
-    "category": "Visual",
-    "image": "./Asset/img/project-placeholder.svg"
+    "category": "Website",
+    "image": "./Asset/img/project-nyxberg.png"
   }
 ]
